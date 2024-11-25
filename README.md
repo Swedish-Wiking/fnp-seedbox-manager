@@ -8,6 +8,10 @@ For when you have a non-static IP on your seedbox and what's a script that can a
 fnp_seedbox.py username [ip] [options]
 ```
 
+## Requirements
+
+You will need a `Netscape HTTP Cookie File` with the cookie `remember_web_*` from FNP. Basically, login and then save the cookies to a file called `fearnopeer.cookies` and place it in the script folder or use the `--cookie-file` option.
+
 ## All options
 
 - `--help`, `--print | --no-print`, `--seedbox-name`, `--delete | --no-delete`, `--cookie-file`
